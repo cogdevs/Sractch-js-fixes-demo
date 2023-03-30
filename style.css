@@ -1,0 +1,36 @@
+.pixel {
+    height: 10px;
+    width: 10px;
+    background: chocolate;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#stage {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    aspect-ratio: 16 / 9;
+}
+
+/* other styles -- you can ignore these */
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background: url('https://images.unsplash.com/photo-1558864255-eced94afc9ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHBhcmt8ZW58MHx8MHx8');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.message {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #d0d0d0b0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: max-content;
+    background-color: white;
+    z-index: 1;
+}

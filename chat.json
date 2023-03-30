@@ -1,0 +1,25 @@
+{ "Message1":[
+    {
+        "Actor": "dog",
+        "msg": "Hello there seth"
+    },
+    {
+        "Actor": "cat",
+        "msg": "Hi there seth"
+    },
+    {
+        "Actor": "cat",
+        "msg": "Im going to the auqriem."
+    },
+    {
+        "Actor": "dog",
+        "msg": "Your obsessed with fish ˚l˚"
+    }],
+    
+    "Message2":[
+        {
+            "Actor":"dog",
+            "msg":"bye"
+        }
+    ]
+}
