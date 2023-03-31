@@ -11,7 +11,7 @@ class Actor {
         this.yPosition = Math.round(((element.getBoundingClientRect().y + element.getBoundingClientRect().height / 2) - (window.innerHeight / 2)) * -1);
         this.isGliding = (this.element.dataset.glide === 'true');
         this.brightness = Number(this.element.dataset.brightness);
-        this.element.style.transform = `scale(${this.size / 100}) rotate(${this.direction - 90}deg) scaleX(${this.scaleX})`;
+        this.element.style.transform = `scale(${this.size / 100}) rotate(${this.direction - 90}deg) scaleX${this.scaleX})`;
         this.element.style.filter = `brightness(${(this.brightness / 100) + 1})`
     }
     
